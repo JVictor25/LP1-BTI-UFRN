@@ -1,0 +1,16 @@
+create-concessionaria IMD_SA 11.111.111/0001-11 0
+add-car IMD_SA Toyota 100000 9BRBLWHEXG0107721 2019 gasolina
+add-truck IMD_SA Scania 700000 7BRBLQHEXG0208811 2010 perigosa
+add-car IMD_SA Toyota 100000 9BRBLWHEXG0107721 2019 gasolina
+remove-vehicle 9BRBLWHEXG0107721
+add-car IMD_SA Toyota 100000 9BRBLWHEXG0107721 2019 gasolina
+add-moto IMD_SA BMW 80000 3BRBLWHEXG0963741 2022 esportivo
+add-car IMD_SA Toyota 100000 9BRBLWHEXG0107721 2019 gasolina
+search-vehicle 9BRBLWHEXG0107721
+list-concessionaria IMD_SA
+add-car IMD_SA Porsche 1800000 6BRBLWHEXG0741852 2024 eletrico
+search-vehicle 6BRBLWHEXG0741852
+list-concessionaria IMD_SA
+raise-price IMD_SA 10
+list-concessionaria IMD_SA
+quit
